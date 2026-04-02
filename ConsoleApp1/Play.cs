@@ -14,23 +14,10 @@ public class Play
     {
         //now  get where the project is 
         string project_location = AppDomain.CurrentDomain.BaseDirectory;
-
-        //check if it is getting the directory correctly 
-        Console.WriteLine(project_location);
-
-
-        //now lets replace the bin/Debug/net10.0 so it can get the wav file 
-        //string updated_path  = project_location.Replace("bin\\Debug\\net10.0\\", "AudioFiles\\");
-
-        //combine wav name as sound.wav with the updated path
-
         string full_path = Path.Combine(project_location, "WelcomeMessagee.wav");
 
         //nows lets pass it to the method to play the sound
         Play_wav(full_path);
-
-
-
     }//end of constructor
 
     //method to play the sound 
