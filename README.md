@@ -126,4 +126,5 @@ ConsoleApp1 is a C# console application designed to educate users about cybersec
 
 ConsoleApp1 demonstrates the use of object-oriented programming, user input validation, and a basic chatbot system. It provides a strong foundation for building more advanced cybersecurity awareness applications.
 
----
+CI
+<img width="1355" height="635" alt="Screenshot 2026-04-13 174023" src="https://github.com/user-attachments/assets/0dfdae55-097a-4d3f-b90a-852f75bd0720" />
